@@ -12,4 +12,4 @@ class calcTest(unittest.TestCase):
         self.assertEqual(calc('3 * 4'), 12)
 
     def test_div(self):
-        self.assertEqual(calc('10 \ 5'), 2)
+        self.assertEqual(calc('10 / 5'), 2)
