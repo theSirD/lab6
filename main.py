@@ -9,10 +9,10 @@ def calc(expression):
                     return a+b
                 if sign == '-':
                     return a-b
-#                 if sign == '/':
-#                     return a/b
-#                 if sign == '*':
-#                     return a*b
+                if sign == '/':
+                    return a/b
+                if sign == '*':
+                    return a*b
             except(ValueError, TypeError):
                 raise ValueError("Некорректный ввод")
 if __name__ == '__main__':
