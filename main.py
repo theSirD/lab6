@@ -1,7 +1,7 @@
 def calc(expression):
     allowed = '+-/*'
     for sign in allowed:
-        if sign in allowed:
+        if sign in expression:
             try:
                 a, b = expression.split(sign)
                 a, b = int(a), int(b)
