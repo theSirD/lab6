@@ -1,6 +1,7 @@
 import unittest
 from main import calc
 
+
 class calcTest(unittest.TestCase):
     def test_plus(self):
         self.assertEqual(calc('3 + 4'), 7)
